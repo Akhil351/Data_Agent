@@ -1,0 +1,17 @@
+[project]
+name = "aidataagent"
+version = "0.1.0"
+description = "Data Agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.4",
+    "langchain-openai>=1.7.0",
+    "langgraph>=1.2.14",
+    "psycopg2-binary>=2.9.13",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.14.0",
+    "pydantic-settings>=2.15.0",
+    "sqlalchemy>=2.1.4",
+]
